@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: game2048-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: game2048
+  template:
+    metadata:
+      labels:
+        app: game2048
+    spec:
+      containers:
+        - name: game2048
+          image: suhritareddy/game2048-api
+          ports:
+            - containerPort: 8080
