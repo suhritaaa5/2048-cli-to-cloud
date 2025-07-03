@@ -100,7 +100,7 @@ docker run -p 8080:8080 2048-game-api
 ### 📦 DockerHub Repository
 
 ![DockerHub](screenshots/dockerhub.png)
-![link](https://hub.docker.com/repository/docker/suhritareddy/game2048-api)
+![Docker Image](https://hub.docker.com/repository/docker/suhritareddy/game2048-api)
 
 ### 3️⃣ Test the API locally using Postman or browser
 ```
